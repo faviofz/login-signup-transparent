@@ -5,11 +5,11 @@ function check_submit() {
     
     if(text.value != '' && password.value != ''){
         submit.removeAttribute('disabled');
-        submit.setAttribute('style', 'background-color: rgb(255, 99, 71, 1);');
+        submit.setAttribute('style', 'opacity: 1');
     }
     else {
         submit.setAttribute('disabled', true);
-        submit.setAttribute('style', 'background-color: rgb(255, 99, 71, 0.5);');
+        submit.setAttribute('style', 'opacity: 0.5');
     }
 }
 
