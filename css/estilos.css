@@ -46,7 +46,8 @@ h3 {
 }
 
 .form-area input[type="text"],
-.form-area input[type="password"] {
+.form-area input[type="password"],
+.form-area input[type="email"] {
   border: none;
   border-bottom: 1px solid white;
   background-color: transparent;
@@ -71,10 +72,9 @@ h3 {
   border-radius: 20px;
 }
 
-.form-area input[type="submit"]:hover {
+/* .form-area input[type="submit"]:hover {
   background-color: rgb(255, 99, 71);
-  color: white;
-}
+} */
 
 .form-area a{
   color: white;

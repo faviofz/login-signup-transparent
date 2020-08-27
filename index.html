@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario Transparente</title>
+    <title>Iniciar sesión</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
 <body>
     <div class="form-area">
         <h3>Inicio de Sesión</h3>
         <form action="">
             <p>Usuario o Email</p>
-            <input type="text" placeholder="Ingrese su usuario o email">
+            <input type="text" placeholder="Ingrese su usuario o email" onkeyup="check_submit()">
             <p>Contraseña</p>
-            <input type="password" placeholder="Ingrese su contraseña">
-            <input type="submit" value="Iniciar Sesión">
-            <a href="#">Olvidé mi contraseña</a>
+            <input type="password" placeholder="Ingrese su contraseña" onkeyup="check_submit()">
+            <input type="submit" value="Iniciar Sesión" disabled>
         </form>
+        <a href="#"><span>¿Olvidaste tu contraseña?</span></a>
+        <span>.</span>
+        <a href="#"><span>Regístrate</span></a>
     </div>
+    <script type="text/javascript" src="js/efectos.js"></script>
 </body>
+
 </html>
